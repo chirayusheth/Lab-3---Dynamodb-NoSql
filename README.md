@@ -1,1 +1,1 @@
-# Lab-3---Dynamodb-NoSql
+# Lab-3-Dynamodb-NoSql
