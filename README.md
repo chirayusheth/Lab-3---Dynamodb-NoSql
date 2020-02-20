@@ -1,73 +1,5 @@
 # Lab 3 - Dynamodb NoSql
 
-### Instructions
-
-**Step 1:**
-Start DynamoDB Server
-
-$ dynamodb
-
-**Step 2:**
-Open another terminal.
-
-$ git clone https://github.com/sanket143/DynamoDB-Lab
-
-This will create a folder DynamoDB-Lab.
-
-[DynamoDB Lab Template](https://github.com/sanket143/DynamoDB-Lab): Here is the boilerplate you'll be using.
-
-Click on `Use this template` button on the repo to make a copy for you and clone it and you're good to go.
-
-Your Directory Tree
-
-```
-.
-├── data
-│   ├── books
-│   │   └── books.json
-│   ├── devhub
-│   │   ├── commits.json
-│   │   ├── issues.json
-│   │   ├── repositories.json
-│   │   └── users.json
-│   └── logs
-│       └── web_access_log.json
-├── finish.py
-├── README.md
-├── setup.py
-└── soln
-    ├── task1
-    │   ├── q1.py
-    │   ├── q2.py
-    │   ├── q3.py
-    │   ├── q4.py
-    │   ├── q5.py
-    │   ├── q6.py
-    │   └── q7.py
-    ├── task2
-    │   ├── q1.py
-    │   ├── q2.py
-    │   ├── q3.py
-    │   └── q4.py
-    └── task3
-        ├── q2.py
-        ├── q3.py
-        ├── q4.py
-        ├── q5.py
-        └── q6.py
-
-8 directories, 25 files
-```
-
-Here you have three tasks!
-
-In each task you are given a set of data files.
-<span style="color: crimson !important">Before proceeding, understand structure of respective data files</span>
-
-You'll be writing all your code in `q#.py` files and are suppose to submit compressed `soln/`
-
-<div style="page-break-after: always;"></div>
-
 ## Task 1
 
 **1. Create table `Books` for <span style="color: crimson !important">data/books/books.json</span> with following inputs**
@@ -86,8 +18,6 @@ You'll be writing all your code in `q#.py` files and are suppose to submit compr
 **6. Update pages of book <span style="color: crimson !important">Git Pocket Guide</span> published by <span style="color: crimson !important">O'Reilly Media</span> to <span style="color: crimson !important">268</span>**
 
 **7. List out book `titles` with `pages` with more than <span style="color: crimson !important">300</span> pages**
-
-[DynamoDB Reference Codes](https://github.com/sanket143/DynamoDB-Lab/wiki/DynamoDB-Reference-Codes)
 
 ---
 
